@@ -1,0 +1,185 @@
+.wed_body {
+	background:linear-gradient(to bottom,rgba(6,12,34,0.1)0,rgba(6,12,34,0.1)100%),
+	url(novotel/wed11.jpg);
+	/*background-size: cover;*/
+	object-fit: cover;
+
+}
+
+#go_home a:hover{
+	text-decoration: none;
+}
+
+#discover{
+	position: relative;
+	width:400px;
+	height:400px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius:100%;
+	margin-top: 20px;
+	margin-left: -200px;
+	left: 50%;
+	bottom: 10px;
+}
+
+#discover a{
+	margin:0;
+	border-radius: 50px;
+	/*padding: 12px 32px;*/
+	background-color:#FFD86F;
+	color:#fff;
+	transition:0.5s;
+	animation-delay:0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor:pointer;
+}
+#discover h3,
+#discover p,
+#discover a {
+	text-align-last: center;
+	position: relative;
+	top: 100px;
+	color: white;
+}
+
+#discover h3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: capitalize;
+}
+
+#discover a:hover{
+	background-color:white;
+	color:#20255f;
+}
+
+.rst_pad1 {
+	position: relative;
+	top: 50px;
+}
+
+#banner_wed {
+	width: 100%;
+	height: 500px; /*vh => viewheight*/
+	background: linear-gradient(
+		to bottom, rgba(6,12,34, 0.3)0, rgba(6,12,34, 0.3) 100%), url(novotel/wed1.jpg);
+	);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+#banner_wed h1 {
+	position: relative;
+	top: 300px;
+	color: white; 
+	font-family: logo4;
+	font-size: 50px;
+}
+
+#banner_wed2 {
+	width: 100%;
+	height: 500px; /*vh => viewheight*/
+	background: linear-gradient(
+		to bottom, rgba(6,12,34, 0.3)0, rgba(6,12,34, 0.3) 100%), url(novotel/wed15.jpg);
+	);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+#banner_wed3 {
+	width: 100%;
+	height: 500px; /*vh => viewheight*/
+	background: linear-gradient(
+		to bottom, rgba(6,12,34, 0.3)0, rgba(6,12,34, 0.3) 100%), url(novotel/wed13.jpg);
+	);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+div.wed_mybtn1 button{
+	background-color: rgba(247, 214, 101, 0.9);
+	border-radius: 30px;
+	color: black;
+}
+
+div.wed_mybtn1 button:hover {
+	background-color: white;
+	color: rgba( 27, 51, 126, 0.9);
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+#wed_cvr1 {
+	width: 100%;
+	height: 500px; /*vh => viewheight*/
+	background: linear-gradient(
+		to bottom, rgba(6,12,34, 0.3)0, rgba(6,12,34, 0.3) 100%), url(novotel/wed12.jpg);
+	);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+#wed_cvr2 {
+	width: 100%;
+	height: 500px; /*vh => viewheight*/
+	background: linear-gradient(
+		to bottom, rgba(6,12,34, 0.3)0, rgba(6,12,34, 0.3) 100%), url(novotel/wed13.jpg);
+	);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+/*discover1*/
+.web_dis1 {
+	margin-top: 150px;
+}
+
+.web_dis1 h1,
+.web2 h1 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: capitalize;
+}
+
+.web_dis1 img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+}
+
+/*wedding2*/
+.wed2 h1,
+.web2 p {
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+/*wedding3*/
+.wed3 h1 {
+	text-align: center;
+	color: rgba( 28, 28, 88, 0.8);
+	padding: 10px 0 26px 0;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Maven Pro', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 35px;
+}
+
+.wed3 p {
+	font-family: normal;
+	padding: 5px 0;
+}
+
+.wed3_2 ul,
+.wed3_3 ul {
+	position: relative;
+	right: 28px;
+	font-size: 18px; 
+}

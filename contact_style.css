@@ -1,0 +1,44 @@
+body { 
+    padding: 0; margin: 0;
+}
+
+span { 
+    font-size: 13px;
+}
+
+h5 {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+/* /// CAROUSEL PART START HERE */
+.carousel_part img{ 
+    height: 300px;
+
+}
+.carousel_part .carousel_text_inner{ 
+    position: absolute; top: 20%;left: 35%;padding: 0;
+}
+
+/* /// CONTACT FORM PART START HERE */
+.contact_part { padding: 50px 0 70px 0;}
+.contact_address_text { padding: 10px 0 0 15px;}
+.contact_form_part{ padding: 0 0 0 40px;border-left: 1px solid gray;}
+.contact_form_part form{ padding: 50px 0 0 20px;}
+
+/* /// GOOGLE MAP PART START HERE */
+.google_part_inner h5{ padding-right: 30px;}
+.google_part_inner span { border: 1px solid gray;padding: 5px 70px 5px 10px;}
+
+/* /// SOCIAL PART START HERE */
+.social_part_inner{ padding: 60px;line-height: 5em;}
+
+/* /// NEWSLETTER PART START HERE */
+.newletter_part{ line-height: 4em;background: gray;}
+.newletter_part p {padding-right: 10px;}
+
+/*  /// FOOTER PART START HERE */
+.footer_part_inner{ padding-top: 50px;}
